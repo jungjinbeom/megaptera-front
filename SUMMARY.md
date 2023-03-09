@@ -6,3 +6,4 @@
   * [😙 2. TypeScript](1-weeks/2.-typescript.md)
   * [😕 3. React](1-weeks/3.-react.md)
   * [🙃 4. Testing Library](1-weeks/4.-testing-library.md)
+  * [😖 5. Parcel & ESLint](1-weeks/5.-parcel-and-eslint.md)
