@@ -25,7 +25,7 @@ React.createElement('p',null,"Hello World");
 ### Example 1
 
 ```jsx
-//JSX 코드
+// JSX 코드
 <p>Hello World!</p>
 
 // 변환된 JS 코드
@@ -35,7 +35,7 @@ React.createElement("p", null, "Hello World!");
 ### Example 2
 
 ```jsx
-//JSX 코드
+// JSX 코드
 <Greeting name='world'/>
 
 // 변환된 JS 코드
@@ -47,7 +47,7 @@ React.createElement(Greeting, {
 ### Example3
 
 ```jsx
-//JSX 코드
+// JSX 코드
 <Button type='button'>send</Button>
 
 // 변환된 JS 코드
@@ -59,13 +59,13 @@ React.createElement(Button, {
 ### Example4
 
 ```jsx
-//자식요소가 포함되있을때의 JSX 코드 
+// 자식요소가 포함되있을때의 JSX 코드 
 <div className="test">
   <p>Hello World!</p>
   <Button type='button'>send</Button>
 </div>
 
-//변환된 JS 코드
+// 변환된 JS 코드
 React.createElement("div", {
   className: "test"
 }, React.createElement("p", null, "Hello World!"),React.createElement(Button, {
@@ -82,9 +82,32 @@ React.createElement("div", {
   <button type='button' onClick={()=>setCount(count+1)}>Increase</button>
 </div>
 
-//변환된 JS 코드
+// 변환된 JS 코드
 React.createElement("div", null, React.createElement("p", null, "Count : ", count, "!"), React.createElement("button", {
   type: "button",
   onClick: () => setCount(count + 1)
 }, "Increase"));
 ```
+
+### Example6
+
+```jsx
+// 컴포넌트 작성 코드
+function Greeting({name}){
+    return (
+        <p>Hello, world!</p>
+    )
+}
+
+// 변환된 JS 코드
+function Greeting({
+  name
+}) {
+  return React.createElement("p", null, "Hello, world!");
+}
+```
+
+## JSX 이해하기
+
+* React를 사용할 때 JSX는 필수가 아니다.
+* 빌드 환경에서 컴파일 설정 하고 싶지 않을때 JSX를 사용하지 않고 순수 JavaScript로 React를 만들면 된다.
