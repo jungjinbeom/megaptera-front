@@ -10,4 +10,4 @@
 * [😄 2 Weeks](2-weeks/README.md)
   * [🤩 JSX](2-weeks/jsx.md)
   * [☺ React Element](2-weeks/react-element.md)
-  * [🧐 VDOM (Virtual DOM)](2-weeks/vdom-virtual-dom.md)
+  * [🧐 Virtual DOM](2-weeks/virtual-dom.md)
