@@ -14,8 +14,9 @@
 React.createElement('p',null,"Hello World");
 ```
 
-* HTML에서는 input, br등 태그를 사용할 때 "/" 를 사용하여 태그를 닫아주지 않아도 됐지만 JSX에서는 태그를 무조건 닫아줘야한다.
-* 중괄호를 사용하여 JavaScript 코드를 사용할 수 있다.
+{% hint style="info" %}
+HTML에서는 input, br등 태그를 사용할 때 "/" 를 사용하여 태그를 닫아주지 않아도 됐지만 JSX에서는 태그를 무조건 닫아줘야한다.
+{% endhint %}
 
 ## JSX 코드가 JS(React.createElement)코드로 변환된 예제
 
