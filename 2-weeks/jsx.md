@@ -23,6 +23,8 @@ HTML에서는 input, br등 태그를 사용할 때 "/" 를 사용하여 태그�
 [Babel 공식 홈페이지](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie\_mob%2011\&build=\&builtIns=false\&corejs=3.21\&spec=false\&loose=false\&code\_lz=Q\&debug=false\&forceAllTransforms=false\&modules=false\&shippedProposals=false\&circleciRepo=\&evaluate=false\&fileSize=false\&timeTravel=false\&sourceType=module\&lineWrap=true\&presets=env%2Creact%2Cstage-2\&prettier=false\&targets=\&version=7.21.2\&externalPlugins=\&assumptions=%7B%7D)에서 **JSX 작성한 코드가 React.createElement 코드로 변환**하는 것을 확인 할 수 있다.\
 **Presets에서 react를 체크**하거나, **Plugins에서 @babel/plugin-transform-react-jsx를 추가**하면 JSX를 실험할 수 있다.
 
+**문법 -** React.createElement(component, props, ...children)&#x20;
+
 ### Example 1
 
 ```jsx
