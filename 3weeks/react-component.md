@@ -2,9 +2,9 @@
 
 ## Thinking in React
 
-* “Step 1: Break the UI into a component hierarchy”
+* step 1: Break the UI into a component hierarchy
   * 컴포넌트 계층 구조 나누기
-* “Step 2: Build a static version in React”
+* step 2: Build a static version in React
   * 리액트 정적 버전 빌드
 
 ## REST API와 GraphQL
