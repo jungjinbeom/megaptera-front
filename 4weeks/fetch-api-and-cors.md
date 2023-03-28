@@ -4,7 +4,6 @@
 
 * Fetch API 란
   * fetch 사용법 , http 메소드 사용법
-  * &#x20;
 * Promise
 * ReableStream
 * Unicode
