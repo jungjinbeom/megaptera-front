@@ -16,3 +16,4 @@
   * [😁 React State](3weeks/react-state.md)
 * [😫 4Weeks](4weeks/README.md)
   * [😒 Express](4weeks/express.md)
+  * [😶 Fetch API & CORS](4weeks/fetch-api-and-cors.md)
