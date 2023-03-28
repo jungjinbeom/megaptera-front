@@ -5,6 +5,8 @@
 * Fetch API 란
   * fetch 사용법 , http 메소드 사용법
 * Promise
+  * Promise란?
+    * 자바스크립트 비동기 처리에 사용되는 객체이다.
 * ReableStream
 * Unicode
 * CORS 란
