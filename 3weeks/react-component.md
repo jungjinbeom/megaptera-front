@@ -44,8 +44,6 @@
 * 데이터 전송 및 교환이 쉽다.
 * 다양한 프로그래밍 언어에서 지원한다.
 
-
-
 ## React Component
 
 ### Component 란 ?&#x20;
@@ -105,9 +103,9 @@ Props는 불변성을 가읽기전용 값이다.
 >
 > [Inline Function](https://refactoring.com/catalog/inlineFunction.html)
 
-### ****
+###
 
-### ****
+###
 
 ## **키워드 정리**&#x20;
 

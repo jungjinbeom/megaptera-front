@@ -22,4 +22,6 @@
   * [😚 usehook-ts](4weeks/usehook-ts.md)
 * [😲 5Weeks](5weeks/README.md)
   * [😌 TDD(Test Driven Development)](5weeks/tdd-test-driven-development.md)
-  * [React Testing Library](5weeks/react-testing-library.md)
+  * [😶 React Testing Library](5weeks/react-testing-library.md)
+  * [😌 MSW](5weeks/msw.md)
+  * [🥶 Playwright](5weeks/playwright.md)
