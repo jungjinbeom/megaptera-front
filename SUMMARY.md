@@ -25,3 +25,5 @@
   * [😶 React Testing Library](5weeks/react-testing-library.md)
   * [😌 MSW](5weeks/msw.md)
   * [🥶 Playwright](5weeks/playwright.md)
+* [🥴 6Weeks](6weeks/README.md)
+  * [External Store](6weeks/external-store.md)
