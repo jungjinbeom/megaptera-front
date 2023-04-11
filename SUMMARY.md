@@ -26,4 +26,5 @@
   * [😌 MSW](5weeks/msw.md)
   * [🥶 Playwright](5weeks/playwright.md)
 * [🥴 6Weeks](6weeks/README.md)
-  * [External Store](6weeks/external-store.md)
+  * [🤥 External Store](6weeks/external-store.md)
+  * [TSyringe](6weeks/tsyringe.md)
