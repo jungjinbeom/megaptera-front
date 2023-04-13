@@ -27,5 +27,6 @@
   * [🥶 Playwright](5weeks/playwright.md)
 * [🥴 6Weeks](6weeks/README.md)
   * [🤥 External Store](6weeks/external-store.md)
-  * [TSyringe](6weeks/tsyringe.md)
-  * [Redux 따라하기](6weeks/redux.md)
+  * [😑 TSyringe](6weeks/tsyringe.md)
+  * [😐 Redux 따라하기](6weeks/redux.md)
+  * [😍 usestore-ts](6weeks/usestore-ts.md)
