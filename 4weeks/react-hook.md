@@ -109,8 +109,25 @@ useEffect(()=>{
 
 
 * useContext
-* useRef
-* useLayoutEffect
-* React StrictMode 란
+
+## useLayoutEffect
+
+**useEffect**와 매우 유사하지만, 조금 더 일찍 실행되어 DOM이 업데이트되기 전에 실행되는 차이점이 있습니다
+
+* useEffect와 동일한 기능을 제공하지만, useEffect가 컴포넌트가 렌더링된 후에 비동기적으로 실행되는 반면, useLayoutEffect는 DOM 업데이트 전에 동기적으로 실행됩니다. 이로 인해 렌더링 결과를 동기적으로 확인할 수 있습니다.
+* useLayoutEffect는 useEffect와 비슷한 문법을 가지며, useEffect와 동일한 2개의 인수를 받습니다. 첫 번째 인수는 부수 효과 함수이고, 두 번째 인수는 의존성 배열입니다. useLayoutEffect는 useEffect와 마찬가지로 부수 효과 함수를 반환합니다.
+*   일반적으로 useEffect를 사용하여 대부분의 상황에서 충분합니다. 그러나 렌더링된 DOM을 변경해야 하는 상황에서 useLayoutEffect가 더 적합합니다. useLayoutEffect를 사용하여 DOM 노드를 조작하면 레이아웃 계산을 수행하기 전에 변경 사항이 적용됩니다. 이로 인해 화면 깜박임이나 레이아웃 재계산 문제를 해결할 수 있습니다.
+
+    \
+
+
+## React StrictMode
+
+React v16.3 에서 도입된 개발도구이다.&#x20;
+
+* 이 모드를 사용하면 애플리케이션을 엄격한 모드로 실행하여 개발자가 더 많은 경고와 에러를 볼 수 있다&#x20;
+* 부적절한 사용 방지 : 경고 메시지를 통해 부적절한 사용 방지를 돕는다.
+* 숨겨진 문제 찾기 : 숨겨진 문제를 찾기 위한 강화된 도구를 제공한다.
+* 앱 성능 개선 : 컴포넌트 수명주기를 좀 더 엄격하게 검사하여 앱의 성능을 개선할 수 있다.
 
 &#x20;
