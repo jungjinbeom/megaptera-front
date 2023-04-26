@@ -35,3 +35,8 @@
   * [👿 Routes](7weeks/routes.md)
   * [👺 Router](7weeks/router.md)
   * [🤖 Navigation](7weeks/navigation.md)
+* [🤗 8Weeks](8weeks/README.md)
+  * [Design System](8weeks/design-system.md)
+  * [Style Basics](8weeks/style-basics.md)
+  * [CSS in JS](8weeks/css-in-js.md)
+  * [styled-components](8weeks/styled-components.md)
