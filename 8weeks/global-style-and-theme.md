@@ -1,0 +1,9 @@
+# Global Style & Theme
+
+### 학습 키워드
+
+* Reset CSS
+* `box-sizing` 속성
+* `word-break` 속성
+* Theme
+* ThemeProvider
