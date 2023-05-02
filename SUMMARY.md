@@ -41,3 +41,6 @@
   * [😦 CSS in JS](8weeks/css-in-js.md)
   * [😧 styled-components](8weeks/styled-components.md)
   * [🤯 Global Style & Theme](8weeks/global-style-and-theme.md)
+* [😒 9Weeks](9weeks/README.md)
+  * [😝 개발하기 전 준비](9weeks/undefined.md)
+  * [Page 2](9weeks/page-2.md)
