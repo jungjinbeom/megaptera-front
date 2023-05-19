@@ -42,5 +42,5 @@
   * [😧 styled-components](8weeks/styled-components.md)
   * [🤯 Global Style & Theme](8weeks/global-style-and-theme.md)
 * [😒 9Weeks](9weeks/README.md)
-  * [😝 복습](9weeks/undefined.md)
+  * [😝 Setup](9weeks/setup.md)
   * [Page 2](9weeks/page-2.md)
